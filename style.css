@@ -4,3 +4,9 @@
   margin: 0;
 }
 
+#page img {
+  display: flex;
+  border-radius: 16px;
+  height: 400px;
+  margin: 40px auto;
+}
