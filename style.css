@@ -6,7 +6,7 @@
 
 :root {
   font-family: Alice;
-  line-height: 150%;
+  
   --text-color-primary: #291b1a;
   --text-color-secondary: #573a37;
 }
@@ -15,6 +15,7 @@ body {
   background-image: url(./assets/bg-image.png);
   background-size: cover;
   background-color: #573824;
+  line-height: 150%;
 }
 
 #page {
@@ -26,25 +27,45 @@ body {
   margin: 48px auto;
 }
 
-#page > img {
+img {
   width: 752px;
   height: 400px;
   border-radius: 16px;
 }
 
-main > h1,
-h2 {
-  color: var(--text-color-primary);
+li{
+  margin-left: 24px;
+  color: var(--text-color-secondary);
 }
 
-main > p {
+main {
+  padding: 24px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 24px;
+  line-height: 150%;
+}
+
+h1,
+h2 {
+  color: var(--text-color-primary);
+  margin-bottom: 16px;
+}
+
+p {
   color: var(--text-color-secondary);
 }
 
 #about > h1 {
   font-size: 40px;
-}
-
-main > h2 {
-  font-size: 24px;
 }
