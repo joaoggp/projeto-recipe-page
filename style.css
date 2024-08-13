@@ -4,6 +4,13 @@
   margin: 0;
 }
 
+:root {
+  font-family: Alice;
+  line-height: 150%;
+  --text-color-primary: #291b1a;
+  --text-color-secondary: #573a37;
+}
+
 body {
   background-image: url(./assets/bg-image.png);
   background-size: cover;
@@ -19,8 +26,25 @@ body {
   margin: 48px auto;
 }
 
-#page img {
+#page > img {
   width: 752px;
   height: 400px;
   border-radius: 16px;
+}
+
+main > h1,
+h2 {
+  color: var(--text-color-primary);
+}
+
+main > p {
+  color: var(--text-color-secondary);
+}
+
+#about > h1 {
+  font-size: 40px;
+}
+
+main > h2 {
+  font-size: 24px;
 }
