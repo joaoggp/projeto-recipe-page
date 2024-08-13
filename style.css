@@ -15,6 +15,7 @@
 body {
   background-image: url(./assets/bg-image.png);
   background-size: cover;
+  background-repeat: no-repeat;
   background-color: #573824;
   line-height: 150%;
   margin: 0;
