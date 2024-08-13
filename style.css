@@ -6,9 +6,10 @@
 
 :root {
   font-family: Alice;
-  
+
   --text-color-primary: #291b1a;
   --text-color-secondary: #573a37;
+  --text-color-on-bg: #f0e8c2;
 }
 
 body {
@@ -33,7 +34,7 @@ img {
   border-radius: 16px;
 }
 
-li{
+li {
   margin-left: 24px;
   color: var(--text-color-secondary);
 }
@@ -64,6 +65,14 @@ h2 {
 
 p {
   color: var(--text-color-secondary);
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 48px;
+  color: var(--text-color-on-bg);
+  max-width: 100%;
+  font-size: 16px;
 }
 
 #about > h1 {
